@@ -12,45 +12,65 @@
 <body>
 
     <header>
-        <img class="logo-alura" src="img/logo-alura.png" alt="logoAlura" width="70px">
+        <img class="logo-alura" src="img/logo-alura.0.png" alt="logoAlura" width="70px">
     </header>
 
     <main>
 
-        <section class="One">
+        <section class="Front">
 
-            <input type="text" name="" id="" placeholder="Digite seu texto" >
+            <div class="Left">
 
-            <p>* Apenas letras minúsculas e sem acento.</p>
 
-            <button>Criptografia</button>  <button>Descriptografia</button>
+                <textarea cols="30" rows="10" placeholder="Digite seu texto aqui"></textarea>
 
-        </section>
-        
+                <p>* Apenas letras minúsculas e sem acento.</p>
 
-        <section class="Two">
+                    <div class="btn">
 
-            <div class="ms-decodificada">
-                <input type="text" name="" id="">
+                        <button class="btn-criptografar">Criptografar</button>  
+                        
+                        <button class="btn-descriptografar">Descriptografar</button>
+
+                    </div>
+    
+                
+    
             </div>
+    
+    
+            <div class="Right">
+    
+                <!-- <img src="img/logo-woman-white.png" alt=""  height="350px"  width="210px" > -->
 
-            <h3>Nenhuma mensagem encontrada</h3>
+                <div class="mensagem-container">
 
-            <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+                    <textarea class="mensagem" cols="30" rows="10" ></textarea>
 
+                        <div>
+
+                            <h3>Nenhuma mensagem encontrada</h3>
+    
+                            <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+
+                        </div>
+
+                        <button class="copiar" id="notificacao"></button>
+
+                </div>
+    
+            </div>
 
         </section>
 
 
     </main>
-
-  
-
     
     
 </body>
 
-<footer>@if.dev_</footer>
+
+<footer> Desenvolvido por @if.dev_ | 2024</footer>
 
 <script src="script.js"></script>
 
