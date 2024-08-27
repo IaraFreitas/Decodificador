@@ -2,6 +2,12 @@
     background-color: #091838;
     color: white;
     font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.logo-alura{
+    margin-left: 60px;
+    margin-bottom: -15px;
 }
 
 main{
@@ -12,6 +18,7 @@ main{
 
 .text-area{
     border: none;
+    color: white;
     margin-top: 90px;
     text-transform: lowercase;
     height: 300px;
@@ -19,26 +26,23 @@ main{
     margin-left: 8rem;
 }
 
-::placeholder{
-    color: white;
-    .text-area:focus{
-        outline: none;
-    }
-}
+::placeholder{ color: white;}
+    .text-area:focus{ outline: none;}
 
 .mensagem{
-    background-color: white;
-    background-image: url(img/logo-woman.png);
-    background-size: 50%;
+    background-color: none;
+    background-image: url(img/logo-woman-white.png);
+    background-size: 80%;
+    background-position: right;
     background-repeat: no-repeat;
-    border: none;
+    border: 1px solid white;
     border-radius: 24px;
-    margin-left: 98px;
+    margin-left: 160px;
     margin-top: 20px;
     padding-left: 20px;
     position: fixed;
     height: 500px;
-    width: 500px;
+    width: 400px;
 
 }
 
