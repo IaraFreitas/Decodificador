@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,64 +9,33 @@
 </head>
 
 <body>
-
     <header>
         <img class="logo-alura" src="img/logo-alura.0.png" alt="logoAlura" width="70px">
     </header>
 
     <main>
+        <section>
+            <textarea class="text-area" cols="41" rows="4" placeholder="Digite seu texto aqui"></textarea>
 
-        <section class="Front">
-
-            <div class="Left">
-
-
-                <textarea cols="30" rows="10" placeholder="Digite seu texto aqui"></textarea>
-
-                <p>* Apenas letras minúsculas e sem acento.</p>
+                    <div class="informacao">
+                        <p>* Apenas letras minúsculas e sem acento.</p>
+                    </div>
 
                     <div class="btn">
-
-                        <button class="btn-criptografar">Criptografar</button>  
-                        
-                        <button class="btn-descriptografar">Descriptografar</button>
-
+                        <button class="btn-encriptar" onclick="btnEncriptar()">Criptografar</button>  
+                        <button class="btn-desencriptar" onclick="btndesencriptar()">Descriptografar</button>
                     </div>
-    
+        </section>
                 
     
-            </div>
-    
-    
-            <div class="Right">
-    
-                <!-- <img src="img/logo-woman-white.png" alt=""  height="350px"  width="210px" > -->
-
-                <div class="mensagem-container">
-
-                    <textarea class="mensagem" cols="30" rows="10" ></textarea>
-
-                        <div>
-
-                            <h3>Nenhuma mensagem encontrada</h3>
-    
-                            <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
-
-                        </div>
-
-                        <button class="copiar" id="notificacao"></button>
-
-                </div>
-    
-            </div>
-
+        <section>
+            <textarea class="mensagem" cols="20" rows="10" ></textarea>
+            <button class="btn-copiar" onclick="btndesencriptar()">Copiar</button>
         </section>
-
-
+    
     </main>
-    
-    
 </body>
+        
 
 
 <footer> Desenvolvido por @if.dev_ | 2024</footer>
